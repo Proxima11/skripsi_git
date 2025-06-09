@@ -1,0 +1,69 @@
+Model Wajah
+
+- AlexNet v
+
+1. Model/AlexNet-BiLSTM_Wajah/AlexNet_256x256-BiLSTM_2_Wajah_1R1F.pth v
+2. Model/AlexNet-BiLSTM_Wajah/AlexNet_256x256-BiLSTM_2_Wajah_2R1F.pth v
+3. Model/AlexNet-BiLSTM_Wajah/AlexNet_384x256-BiLSTM_2_Wajah_1R1F.pth v
+4. Model/AlexNet-BiLSTM_Wajah/AlexNet_384x256-BiLSTM_2_Wajah_2R1F.pth v
+5. Model/AlexNet-BiLSTM_Wajah/AlexNet_192x384-BiLSTM_2_Wajah_1R1F.pth v
+6. Model/AlexNet-BiLSTM_Wajah/AlexNet_192x384-BiLSTM_2_Wajah_2R1F.pth v
+7. Model/AlexNet-BiLSTM_Wajah/AlexNet_64x192-BiLSTM_2_Wajah_1R1F.pth v
+8. Model/AlexNet-BiLSTM_Wajah/AlexNet_64x192-BiLSTM_2_Wajah_2R1F.pth v
+
+- ResNet18 v
+
+1. Model/ResNet18-BiLSTM_Wajah/ResNet18_512-BiLSTM_2_Wajah_1R1F.pth v
+2. Model/ResNet18-BiLSTM_Wajah/ResNet18_512-BiLSTM_2_Wajah_2R1F.pth v
+3. Model/ResNet18-BiLSTM_Wajah/ResNet18_256-BiLSTM_2_Wajah_1R1F.pth v
+4. Model/ResNet18-BiLSTM_Wajah/ResNet18_256-BiLSTM_2_Wajah_2R1F.pth v
+5. Model/ResNet18-BiLSTM_Wajah/ResNet18_128-BiLSTM_2_Wajah_1R1F.pth v
+6. Model/ResNet18-BiLSTM_Wajah/ResNet18_128-BiLSTM_2_Wajah_2R1F.pth v
+7. Model/ResNet18-BiLSTM_Wajah/ResNet18_64-BiLSTM_2_Wajah_1R1F.pth v
+8. Model/ResNet18-BiLSTM_Wajah/ResNet18_64-BiLSTM_2_Wajah_2R1F.pth v
+9. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_2_Wajah_2R1F.pth v
+10. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_1_Wajah_2R1F.pth v
+11. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F.pth v
+12. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F_LR10e-3.pth v
+13. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F_LR10e-5.pth v
+14. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F_LR10e-2.pth v
+15. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F_LR10e-1.pth v
+16. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F_NoFreeze.pth v
+17. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F_HalfFreeze.pth v
+18. Model/ResNet18-BiLSTM_Wajah/1024_ResNet18-BiLSTM_3_Wajah_2R1F_augmentasi.pth v
+19. Model/ResNet18-BiLSTM_Wajah/1024_ResNet18-BiLSTM_3_Wajah_2R1F_20FPS_GrayScale.pth v
+20. Model/ResNet18-BiLSTM_Wajah/1024_ResNet18-BiLSTM_3_Wajah_2R1F_20FPS_GrayScale3Channel.pth v
+21. Model/ResNet18-BiLSTM_Wajah/ResNet18_1024-BiLSTM_3_Wajah_2R1F_100Epoch.pth v
+
+Model Bibir-Audio
+
+- AlexNet v
+
+1. Model/AlexNet-BiLSTM_Bibir-Audio/5ConvAlexNet-Bibir_Custom128-Audio_BiLSTM.pth v
+2. Model/AlexNet-BiLSTM_Bibir-Audio/4ConvAlexNet-Bibir_Custom128-Audio_BiLSTM.pth v
+3. Model/AlexNet-BiLSTM_Bibir-Audio/3ConvAlexNet-Bibir_Custom128-Audio_BiLSTM.pth v
+4. Model/AlexNet-BiLSTM_Bibir-Audio/2ConvAlexNet-Bibir_Custom128-Audio_BiLSTM.pth v
+5. Model/AlexNet-BiLSTM_Bibir-Audio/2_Conv_AlexNet-Bibir_256Custom-Audio_BiLSTM.pth (perbaikan nama conv jadi 5) v
+6. Model/AlexNet-BiLSTM_Bibir-Audio/6_Conv_AlexNet-Bibir_256Custom-Audio_BiLSTM.pth v
+7. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM.pth v
+8. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_LR1e-3.pth v
+9. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_LR1e-5.pth v
+10. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_LR1e-2.pth v
+11. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_LR1e-1.pth v
+12. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_HalfFreeze.pth v
+13. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_FullFreeze.pth v
+14. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_NotPretrained.pth v
+15. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_BiLSTM_notPretrained.pth v
+16. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio-DoubleLayer_2-BiLSTM_NotPretrained.pth v
+17. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio-Kernel5x5_2-BiLSTM_NotPretrained.pth v
+18. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio-Kernel7x7_2-BiLSTM_NotPretrained.pth v
+19. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio-Kernel_2-BiLSTM-NumLayer2_NotPretrained.pth v
+20. Model/AlexNet-BiLSTM_Bibir-Audio/5_Conv_AlexNet-Bibir_256Custom-Audio_2-BiLSTM_NotPretrained_100Epoch.pth v
+
+- ResNet18 v
+
+1. Model/ResNet18-BiLSTM_Bibir-Audio/4SequentialResNet18-Bibir_Custom128-Audio_BiLSTM.pth v
+2. Model/ResNet18-BiLSTM_Bibir-Audio/3SequentialResNet18-Bibir_Custom128-Audio_BiLSTM.pth v
+3. Model/ResNet18-BiLSTM_Bibir-Audio/2SequentialResNet18-Bibir_Custom128-Audio_BiLSTM.pth v
+4. Model/ResNet18-BiLSTM_Bibir-Audio/4SequentialResNet18-Bibir_Custom256-Audio_1-BiLSTM.pth v
+5. Model/ResNet18-BiLSTM_Bibir-Audio/4SequentialResNet18-Bibir_Custom256-Audio_2-BiLSTM.pth v
