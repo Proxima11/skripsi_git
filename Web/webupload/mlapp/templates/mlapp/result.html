@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hasil Deteksi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .result-box {
+      max-width: 500px;
+      background: white;
+      padding: 40px 20px;
+      margin: 0 auto 40px auto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+    }
+
+    #result-output {
+      font-size: 32px;
+      font-weight: bold;
+      color: green;
+      margin-top: 10px;
+    }
+
+    .back-btn {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #2e3b55;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .back-btn:hover {
+      background-color: #1f2b45;
+    }
+
+    .video-preview {
+      margin-top: 20px;
+    }
+
+    video {
+      width: 100%;
+      max-width: 600px;
+      max-height: 360px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎥 Web Deepfake Detector</h1>
+
+  <div class="result-box">
+    <p style="font-size: 18px;">Hasil Deteksi:</p>
+    <p id="result-output">{{ result }}</p>
+
+    <button class="back-btn" onclick="window.location.href='{% url 'mlapp:upload_file' %}'">
+      Kembali ke Upload
+    </button>
+  </div>
+
+  <div class="video-preview" id="preview-container" style="display: none;">
+    <h3>Video</h3>
+    <video id="video-preview" controls></video>
+  </div>
+
+  
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const result = localStorage.getItem("detection_result");
+      const videoURL = localStorage.getItem("detection_video");
+
+      if (result) {
+        const output = document.getElementById("result-output");
+        output.innerText = result;
+        output.style.color = result.toLowerCase().includes("real") ? "green" : "red";
+        //localStorage.removeItem("detection_result");
+      }
+
+      const videoBase64 = localStorage.getItem("detection_video_base64");
+      if (videoBase64) {
+      const preview = document.getElementById("video-preview");
+      const container = document.getElementById("preview-container");
+
+      preview.src = videoBase64;
+      container.style.display = "block";
+
+      // bersihkan localStorage
+      localStorage.removeItem("detection_video_base64");
+      }
+      /*if (videoURL) {
+        const preview = document.getElementById("video-preview");
+        const container = document.getElementById("preview-container");
+      
+        preview.src = videoURL;
+        container.style.display = "block";
+      
+        // Tunggu video benar-benar siap sebelum revoke dan hapus
+        preview.onloadeddata = () => {
+          URL.revokeObjectURL(videoURL); // Bebaskan memori
+          //localStorage.removeItem("detection_video"); // Hapus setelah video berhasil dimuat
+        };
+
+        preview.onerror = () => {
+            console.error("Gagal memuat video.");
+            localStorage.removeItem("detection_video");
+          };
+      }*/
+    });
+  </script>
+
+</body>
+</html>
