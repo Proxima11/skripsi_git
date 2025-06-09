@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 Model/Paper-3[[:space:]]GRU[[:space:]]LSTM/*.pth filter=lfs diff=lfs merge=lfs -text
+Model/ResNet18-BiLSTM_Wajah/*.pth filter=lfs diff=lfs merge=lfs -text
