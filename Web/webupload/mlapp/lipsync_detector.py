@@ -184,7 +184,7 @@ def lip_sync_detector(video_path):
     import torch.nn.functional as F
     from .model_loader import load_lipsync_models
     
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")
     model = load_lipsync_models().to(device)
     
     CLASS_NAMES = ["REAL", "LIP-SYNC DEEPFAKE"]

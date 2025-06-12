@@ -82,7 +82,7 @@ def visual_detector(video_path):
     import torch.nn.functional as F
     from .model_loader import load_visual_models
     
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cpu")
     model = load_visual_models().to(device)
     CLASS_NAMES = ["REAL", "FACE-SWAP DEEPFAKE"]
     
